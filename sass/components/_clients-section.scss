@@ -1,0 +1,33 @@
+.clients-section__list {
+    display: flex;
+    justify-content: center;
+}
+
+.clients-section__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-section__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #AFB1B8;
+    border-style: solid;
+
+    transition: border-color 250ms var(--timing-function), color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--primary-accent-color);
+        border-color: var(--primary-accent-color);
+    }
+}
+
+.clients-section__icon {
+    fill: currentColor;
+}

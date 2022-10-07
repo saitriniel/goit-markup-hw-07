@@ -1,0 +1,53 @@
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-text-color-theme-light);
+    font-size: 14px;
+}
+
+.link.current {
+    color: var(--primary-accent-color);
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+.job-section {
+    padding-top: 0;
+}
+
+.member-card__img,
+.job-section__img,
+.product__img {
+    display: block;
+}
+
+.header__container,
+.job-section__list,
+.team-section__list {
+    display: flex;
+    align-items: center;
+}
+
+.features-section__item:not(:last-child),
+.job-section__item:not(:last-child),
+.team-section__item:not(:last-child) {
+    margin-right: 30px;
+}

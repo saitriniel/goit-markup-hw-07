@@ -1,0 +1,29 @@
+.features-section__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color-theme-light);
+
+    margin-bottom: 10px;
+}
+
+.features-section__list {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+
+    width: 270px;
+
+    display: flex;
+    align-items: flex-start;    
+}
+
+.features-section__icon-thumb {
+    width: 270px;
+    height: 120px;
+    background-color: var(--secondary-background-color-light);
+    margin-bottom: 30px;
+    padding: 25px 100px;
+}
